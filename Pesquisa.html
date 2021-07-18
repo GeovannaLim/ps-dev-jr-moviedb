@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="todos.php">
+    <link  href="busca.jsx">
+    <link href="db.jsx">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!---------------------Inicio do Style/css------------------------>
+<style type="text/css">
+    .pesquisa{
+        width: 400px;
+        height: 40px;
+        margin: 200px auto;
+    }
+    #texto{
+        width: 350px;
+        height: 40px;
+        float: left;
+        border: 1px solid #009688;
+    }
+    
+    .btn{
+        width: 42px;
+        height: 42px;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+</style>
+<!---------------------Fim do Style/css------------------------>
+
+    <title>CINE POP</title>
+</head>
+<body>
+  
+    <!-----------------------Inicio do Menu----------------------------------->
+<nav class="nav-extended #fdd835 yellow darken-1">
+    <div class="nav-wrapper">
+        <ul id="nav-mobile" class="right ">
+            <li><a href="file:///C:/Users/DeltaOmega/Downloads/CinePop/Pesquisa.html"><i class="material-icons">search</i></a></li>
+            <li><a href="file:///C:/Users/DeltaOmega/Downloads/CinePop/Todos.html">Galeria</a></li>
+            <li><a>|</a></li>
+            <li><a href="file:///C:/Users/DeltaOmega/Downloads/CinePop/LOGINDEV.html">Cadastrar</a></li>
+        </ul>
+    </div>
+            <!---------------------------------------------->
+        <div class="nav-header center">
+      <h1><img src="icons8-pipoca-50.png">CINE POP</h1>
+    </div>
+      <!---------------------------------------------------->
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent #fbc02d yellow darken-2">
+        <li class="tab"><a class="active"href="file:///C:/Users/DeltaOmega/Downloads/CinePop/Todos.html">Todos</a></li>
+        <li class="tab"><a href="file:///C:/Users/DeltaOmega/Downloads/CinePop/acao.html">Ação</a></li>
+        <li class="tab"><a href="file:///C:/Users/DeltaOmega/Downloads/CinePop/aventura.html">Aventura</a></li>
+        <li class="tab"><a href="file:///C:/Users/DeltaOmega/Downloads/CinePop/comedia.html#test2">Comédia</a></li>
+        <li class="tab"><a href="file:///C:/Users/DeltaOmega/Downloads/CinePop/drama.html">Drama</a></li>
+        <li class="tab"><a href="file:///C:/Users/DeltaOmega/Downloads/CinePop/ga.html">Favoritos</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  
+  <!------------------------Fim do menu------------------------------>
+  <!-------------------------Barra de busca e datalist----------------------------------------->
+  
+  <form class="pesquisa">
+      <input type="search" id="texto" list="historico" placeholder="Pesquisar">
+      <img src="icons8-pesquisa-35.png " class="btn">
+      <datalist id="historico">
+          <option value="Parasita"></option>
+          <option value="Viúva Negra"></option>
+          <option value="Paternidade"></option>
+          <option value="Vingadores"></option>
+          <option value="Tron o Legado"></option>
+          <option value="Assalto ao Banco da Espanha"></option>
+          <option value="A Velha Guarda"></option>
+          <option value="A 5° Onda"></option>
+          <option value="Maze Runner"></option>
+          <option value="Lucy"></option>
+          <option value="Velozes e Furiosos"></option>
+          <option value="As Crônicas de Narnia"></option>
+          <option value="Gente Grande"></option>
+          <option value="Cada um tem a Gêmea que Merece"></option>
+          <option value="Um Faz de Conta que Acontece"></option>
+          <option value="Professor Peso Pesado"></option>
+          <option value="O Fada do Dente"></option>
+          <option value="O Pequenino"></option>
+          <option value="As Branquelas"></option>
+          <option value="Homem Aranha Devolta ao Lar"></option>
+          <option value="O Doador de Memórias"></option>
+          <option value="Guardiões da Galaxia"></option>
+          <option value="Jumanji"></option>
+          <option value="Percy Jackson o Ladrão de Raios"></option>
+          <option value="Viagem à Ilha Misteriosa 2"></option>
+          <option value="A Rainha de Katwe"></option>
+          <option value="O ódio que você semeia"></option>
+          <option value="A Vida é Bela"></option>
+          <option value="Enquanto Estivermos Juntos"></option>
+          <option value="Jovens Mulheres"></option>
+          <option value="Cadê você Bernadete?"></option>
+          <option value="O Diabo Veste Prada"></option>
+          
+
+      </datalist>
+  </form>
+  <!------------------------Inicio do Footer--------------------->
+  <div class="footer-copyright #fbc02d yellow darken-2">
+    <div class="container">
+    © 2021 Geovanna Lim
+    
+    </div>
+  </div>
+</footer>
+<!------------------------Fim do Footer--------------------->
+</body>
+</html>
